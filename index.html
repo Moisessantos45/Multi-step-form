@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <aside class="seguimiento">
+            <div class="seguimiento_actual margin">
+                <span class="posicion_number">1</span>
+                <div class="posicion_text">
+                    <p class="etapa">STEP 1</p>
+                    <P class="tipo_etapa">YOUR INFO</P>
+                </div>
+            </div>
+            <div class="seguimiento_actual">
+                <span class="posicion_number color">2</span>
+                <div class="posicion_text">
+                    <p class="etapa">STEP 2</p>
+                    <P class="tipo_etapa">SELECT PLAN</P>
+                </div>
+            </div>
+            <div class="seguimiento_actual">
+                <span class="posicion_number color">3</span>
+                <div class="posicion_text">
+                    <p class="etapa">ADD-ONS 3</p>
+                    <P class="tipo_etapa">YOUR INFO</P>
+                </div>
+            </div>
+            <div class="seguimiento_actual">
+                <span class="posicion_number color">4</span>
+                <div class="posicion_text">
+                    <p class="etapa">STEP 4</p>
+                    <P class="tipo_etapa">SUMARY</P>
+                </div>
+            </div>
+        </aside>
+
+        <form action="" class="form_data data_form remove">
+            <h1 class="title">Personal info</h1>
+            <p class="info">Please provide your name,email address, and phone number</p>
+
+            <label for="input" class="title_input">Name</label>
+            <input type="text" class="input name">
+            <label for="input" class="title_input">Email Address</label>
+            <input type="email" name="emain" class="input email">
+            <label for="input" class="title_input">Phone Number</label>
+            <input type="number" name="number" class="input phone">
+            <input type="submit" value="Next Steo" class="btn">
+        </form>
+        <article class="select_plan data_form remove">
+            <h1 class="select_plan-title">Select your plan</h1>
+            <p class="text_plan">you have the option of </p>
+            <figure class="planes">
+                <figure class="type_plan">
+                    <img src="./images/icon-arcade.svg" alt="" class="icon_plan">
+                    <h3 class="arcade name_type">Arcade</h3>
+                    <p class="precio_arcade precio">$9/mo</p>
+                </figure>
+                <figure class="type_plan">
+                    <img src="./images/icon-advanced.svg" alt="" class="icon_plan">
+                    <h3 class="advaced name_type">Advanced</h3>
+                    <p class="precio_advanced precio">$12/mo</p>
+                </figure>
+                <figure class="type_plan">
+                    <img src="./images/icon-pro.svg" alt="" class="icon_plan">
+                    <h3 class="pro name_type">Pro</h3>
+                    <p class="precio_pro precio">$15/mo</p>
+                </figure>
+            </figure>
+            <div class="tipo_pago">
+                <span class="tipo_pago-op">Monthly</span>
+                <button class="btn-d btn_direccion"><span class="btn-c circulo"></span> </button>
+                <span class="tipo_pago-op opacidad">Yearly</span>
+            </div>
+            <div class="botones">
+                <button class="btn previus form_btn">Go back</button>
+                <button class="btn next">Go Next</button>
+            </div>
+        </article>
+        <article class="add_services data_form remove">
+            <h1>Pick add-ons</h1>
+            <p>Add-ons help enhance your gaming experience.</p>
+            <div class="type_services">
+                <div class="type_services-opc">
+                    <input type="checkbox" name="" id="" class="input_check">
+                    <div class="name_services">
+                        <h4 class="nombre_service">Online service</h4>
+                        <P class="descripcion_service">Access to multiplayer games</P>
+                    </div>
+                    <span class="precio_service online">+$1/mo</span>
+                </div>
+                <div class="type_services-opc">
+                    <input type="checkbox" name="" id="" class="input_check">
+                    <div class="name_services">
+                        <h4 class="nombre_service">Large storage</h4>
+                        <P class="descripcion_service">Extra 1TB of cloud save</P>
+                    </div>
+                    <span class="precio_service cloud">+$2/mo</span>
+                </div>
+                <div class="type_services-opc">
+                    <input type="checkbox" name="" id="" class="input_check">
+                    <div class="name_services">
+                        <h4 class="nombre_service">Customizable profile</h4>
+                        <P class="descripcion_service">Custom theme on your profile</P>
+                    </div>
+                    <span class="precio_service custom">+$2/mo</span>
+                </div>
+            </div>
+            <div class="botones">
+                <button class="btn previus">Go back</button>
+                <button class="btn next">Go Next</button>
+            </div>
+        </article>
+        <article class="finishing_form data_form remove">
+            <h1 class="title_finishing">Finishing up</h1>
+            <p class="text_final">Double-check everything looks ok before confirming.</p>
+            <div class="datos_finales">
+                <div class="date_end-time">
+                    <!-- <span class="date_end-time-info">
+                        <h4 class="tipo_servicio">Arcde <span class="tipo_servicio_tiempo">(yearly)</span></h4>
+                        <span>change</span>
+                    </span>
+                    <span class="precio_servicio">$90/yr</span> -->
+                </div>
+                <div class="descripcion_final">
+                    <!-- <section class="descripcion_final-text">
+                        <p>Online service</p>
+                        <p>Large storage</p>
+                    </section>
+                    <section class="descripcion_final-text mover-der">
+                        <p>+$1/mo</p>
+                        <p>+$2/mo</p>
+                    </section> -->
+                </div>
+            </div>
+            <div class="precio_final_total">
+                <p class="total_tiempo">Total</p>
+                <h3 class="precio_total-final">$120/yr</h3>
+            </div>
+            <div class="botones btn-end">
+                <button class="btn previus">Go back</button>
+                <button class="btn next confirm">Confirm</button>
+            </div>
+        </article>
+        <article class="finishing_complet data_form remove">
+            <img src="./images/icon-thank-you.svg" alt="" class="icon-thank-you">
+            <h1 class="Thank-title">Thank you!</h1>
+            <p class="text-thank">Thanks for comfirming your subscription! We hope you have fun using out platform. If
+                your ever need support, please feel free to email us at support@loremgaming.com.</p>
+        </article>
+        <div class="temporizador">
+            
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
