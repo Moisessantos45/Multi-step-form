@@ -718,6 +718,10 @@ body {
     margin-top: 10px;
   }
 
+  .text_final {
+    margin-left: 25px;
+  }
+
   .finishing_complet {
     width: 90%;
     height: 550px;
@@ -728,6 +732,7 @@ body {
     top: 23%;
     border-radius: 5px;
   }
+
 
   .temporizador{
     bottom: 0;
