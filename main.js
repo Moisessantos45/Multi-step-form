@@ -124,8 +124,8 @@ function quitarClase() {
         }
     })
     if (cont == 2) {
-        document.startViewTransition(() => precios_services())
-        // precios_services()
+        // document.startViewTransition(() => precios_services())
+        precios_services()
     } if (cont == 3) {
         data_end()
     }
@@ -154,12 +154,12 @@ form_container.addEventListener("click", e => {
     }
     if (evento == "previus") {
         actulizarCont()
-        document.startViewTransition(() => quitarClase())
-        // quitarClase()
+        // document.startViewTransition(() => quitarClase())
+        quitarClase()
     } else if (evento == "next") {
         quitarClass()
-        document.startViewTransition(() => quitarClase())
-        // quitarClase()
+        // document.startViewTransition(() => quitarClase())
+        quitarClase()
     }
     else if (evento == "btn_direccion" || evento == "circulo") {
         let circulito = document.querySelector(".btn_direccion").classList.toggle("izq")
