@@ -358,7 +358,7 @@ body {
   justify-content: space-between;
   /* flex-direction: column; */
   width: 90%;
-  height: 50px;
+  height: 70px;
   border-bottom: 0.8px solid hsl(231, 11%, 63%);
 }
 
@@ -366,11 +366,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 150px;
+  width: 60%;
 }
 
 .precio_servicio {
-  width: 150px;
+  width: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
